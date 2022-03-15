@@ -1,8 +1,8 @@
 const Score = (props) => {
   return ( 
-    <>
-      Score
-    </>
+    <div>
+      Score: {props.score.score}/ Date: {props.score.date}
+    </div>
   );
 }
 

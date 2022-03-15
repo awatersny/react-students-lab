@@ -67,7 +67,7 @@ function App() {
   ])
 
   return (
-    <div className='App'>
+    <div>
       {students.map((student, idx) => 
         <Students key={idx} student={student} />
       )}
